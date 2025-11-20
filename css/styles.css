@@ -202,7 +202,13 @@
   transform: translateY(-5px);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
 }
-
+.our-products {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #333;
+}
 /* Responsive columns */
 @media (min-width: 600px) {
   .product-grid {
