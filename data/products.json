@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "name": "NVIDIA GeForce RTX 4060",
+    "price": 329,
+    "category": "GPU",
+    "image": "images/rtx4060.jpg",
+    "description": "1080p/1440p GPU with DLSS 3 support."
+  },
+  {
+    "id": 2,
+    "name": "NVIDIA GeForce RTX 4070 Super",
+    "price": 599,
+    "category": "GPU",
+    "image": "images/rtx4070super.jpg",
+    "description": "High-performance GPU for 1440p ultra gaming."
+  },
+  {
+    "id": 3,
+    "name": "AMD Radeon RX 6750 XT",
+    "price": 389,
+    "category": "GPU",
+    "image": "images/rx6750xt.jpg",
+    "description": "Excellent 1440p GPU with strong performance."
+  },
+
+  {
+    "id": 4,
+    "name": "AMD Ryzen 5 5600X",
+    "price": 159,
+    "category": "CPU",
+    "image": "images/5600x.jpg",
+    "description": "6-core CPU ideal for gaming and productivity."
+  },
+  {
+    "id": 5,
+    "name": "Intel Core i5-12400F",
+    "price": 149,
+    "category": "CPU",
+    "image": "images/i5_12400f.jpg",
+    "description": "6 performance cores, great mid-range performance."
+  },
+  {
+    "id": 6,
+    "name": "Intel Core i7-12700K",
+    "price": 319,
+    "category": "CPU",
+    "image": "images/i7_12700k.jpg",
+    "description": "12th-gen i7, excellent for gaming and streaming."
+  },
+
+  {
+    "id": 7,
+    "name": "Corsair Vengeance 16GB DDR4 3200MHz",
+    "price": 49,
+    "category": "RAM",
+    "image": "images/corsair16.jpg",
+    "description": "High-performance DDR4 memory kit."
+  },
+  {
+    "id": 8,
+    "name": "G.Skill Trident Z RGB 32GB DDR4",
+    "price": 89,
+    "category": "RAM",
+    "image": "images/tridentz32.jpg",
+    "description": "RGB RAM optimized for gaming PCs."
+  },
+
+  {
+    "id": 9,
+    "name": "Samsung 970 EVO Plus 1TB NVMe",
+    "price": 79,
+    "category": "Storage",
+    "image": "images/970evo.jpg",
+    "description": "Fast NVMe SSD for gaming and productivity."
+  },
+  {
+    "id": 10,
+    "name": "WD Blue 2TB HDD",
+    "price": 54,
+    "category": "Storage",
+    "image": "images/wdblue2tb.jpg",
+    "description": "Reliable 2TB hard drive for mass storage."
+  },
+
+  {
+    "id": 11,
+    "name": "ASUS ROG Strix B550-F Gaming",
+    "price": 169,
+    "category": "Motherboard",
+    "image": "images/b550f.jpg",
+    "description": "Premium AM4 motherboard for Ryzen CPUs."
+  },
+  {
+    "id": 12,
+    "name": "MSI Z690 Pro WiFi",
+    "price": 210,
+    "category": "Motherboard",
+    "image": "images/z690pro.jpg",
+    "description": "LGA1700 board with Wi-Fi 6 support."
+  },
+
+  {
+    "id": 13,
+    "name": "NZXT H510 Mid Tower Case",
+    "price": 79,
+    "category": "Case",
+    "image": "images/h510.jpg",
+    "description": "Clean modern mid-tower case."
+  },
+  {
+    "id": 14,
+    "name": "Corsair 4000D Airflow",
+    "price": 94,
+    "category": "Case",
+    "image": "images/4000d.jpg",
+    "description": "High-airflow case for gaming builds."
+  },
+
+  {
+    "id": 15,
+    "name": "Corsair RM750 80+ Gold PSU",
+    "price": 109,
+    "category": "Power Supply",
+    "image": "images/rm750.jpg",
+    "description": "750W fully modular power supply."
+  },
+  {
+    "id": 16,
+    "name": "EVGA 600 BR 80+ Bronze",
+    "price": 49,
+    "category": "Power Supply",
+    "image": "images/evga600.jpg",
+    "description": "Budget-friendly 600W power supply."
+  },
+
+  {
+    "id": 17,
+    "name": "Cooler Master Hyper 212 RGB",
+    "price": 39,
+    "category": "Cooling",
+    "image": "images/hyper212.jpg",
+    "description": "Popular air cooler for gaming CPUs."
+  },
+  {
+    "id": 18,
+    "name": "NZXT Kraken X53 240mm AIO",
+    "price": 129,
+    "category": "Cooling",
+    "image": "images/krakenx53.jpg",
+    "description": "ARGB liquid cooler for high-end CPUs."
+  },
+
+  {
+    "id": 19,
+    "name": "Kingston NV2 500GB NVMe",
+    "price": 29,
+    "category": "Storage",
+    "image": "images/nv2.jpg",
+    "description": "Budget NVMe SSD for fast boot times."
+  },
+  {
+    "id": 20,
+    "name": "TeamGroup T-Force Delta RGB 16GB DDR5",
+    "price": 119,
+    "category": "RAM",
+    "image": "images/tforceddr5.jpg",
+    "description": "High-speed DDR5 RAM with RGB lighting."
+  }
+]
