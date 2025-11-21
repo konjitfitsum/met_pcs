@@ -12,7 +12,7 @@ fetch("data/products.json")
           <p class="price">$${p.price}</p>
           <p class="category">${p.category}</p>
           <p class="description">${p.description}</p>
-          <button class="add-to-cart" data-id="${p.id}"><a href="cart.html" style="text-decoration: none; color: white">Add to Cart</a></button>
+          <button class="add-to-cart" data-id="${p.id}" style="background-color: #05a2ba ; border: none ;border-radius: 5px ; padding: 10px ; margin:10px"><a href="cart.html" style="text-decoration: none; color: white">Add to Cart</a></button>
 
         </div>
       `;

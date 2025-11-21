@@ -4,7 +4,7 @@
     "name": "NVIDIA GeForce RTX 4060",
     "price": 329,
     "category": "GPU",
-    "image": "images/rtx4060.jpg",
+    "image": "image/electronics/download.jpeg",
     "description": "1080p/1440p GPU with DLSS 3 support."
   },
   {
@@ -21,6 +21,7 @@
     "price": 389,
     "category": "GPU",
     "image": "images/rx6750xt.jpg",
+
     "description": "Excellent 1440p GPU with strong performance."
   },
 
