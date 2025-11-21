@@ -12,7 +12,7 @@
     "name": "NVIDIA GeForce RTX 4070 Super",
     "price": 599,
     "category": "GPU",
-    "image": "images/rtx4070super.jpg",
+    "image": "image/electronics/Nvidea 4070super.jpeg",
     "description": "High-performance GPU for 1440p ultra gaming."
   },
   {
@@ -20,7 +20,7 @@
     "name": "AMD Radeon RX 6750 XT",
     "price": 389,
     "category": "GPU",
-    "image": "images/rx6750xt.jpg",
+    "image": "image/electronics/amdRadeonRx6750 xt.jpeg",
 
     "description": "Excellent 1440p GPU with strong performance."
   },
@@ -30,7 +30,7 @@
     "name": "AMD Ryzen 5 5600X",
     "price": 159,
     "category": "CPU",
-    "image": "images/5600x.jpg",
+    "image": "image/electronics/amdRyzen 5 5600X.jpeg",
     "description": "6-core CPU ideal for gaming and productivity."
   },
   {
@@ -38,7 +38,7 @@
     "name": "Intel Core i5-12400F",
     "price": 149,
     "category": "CPU",
-    "image": "images/i5_12400f.jpg",
+    "image": "image/electronics/intel core i5jpeg.jpeg",
     "description": "6 performance cores, great mid-range performance."
   },
   {
@@ -46,7 +46,7 @@
     "name": "Intel Core i7-12700K",
     "price": 319,
     "category": "CPU",
-    "image": "images/i7_12700k.jpg",
+    "image": "image/electronics/intel core i7.jpeg",
     "description": "12th-gen i7, excellent for gaming and streaming."
   },
 
@@ -55,7 +55,7 @@
     "name": "Corsair Vengeance 16GB DDR4 3200MHz",
     "price": 49,
     "category": "RAM",
-    "image": "images/corsair16.jpg",
+    "image": "image/electronics/corsair vengeance 16gb.jpeg",
     "description": "High-performance DDR4 memory kit."
   },
   {
@@ -63,7 +63,7 @@
     "name": "G.Skill Trident Z RGB 32GB DDR4",
     "price": 89,
     "category": "RAM",
-    "image": "images/tridentz32.jpg",
+    "image": "image/electronics/g.skilll trident rgb.jpeg",
     "description": "RGB RAM optimized for gaming PCs."
   },
 
@@ -72,7 +72,7 @@
     "name": "Samsung 970 EVO Plus 1TB NVMe",
     "price": 79,
     "category": "Storage",
-    "image": "images/970evo.jpg",
+    "image": "image/electronics/samsung970Evo1tb.jpeg",
     "description": "Fast NVMe SSD for gaming and productivity."
   },
   {
@@ -80,7 +80,7 @@
     "name": "WD Blue 2TB HDD",
     "price": 54,
     "category": "Storage",
-    "image": "images/wdblue2tb.jpg",
+    "image": "image/electronics/Wdblue2tbHDD.jpeg",
     "description": "Reliable 2TB hard drive for mass storage."
   },
 
@@ -89,7 +89,7 @@
     "name": "ASUS ROG Strix B550-F Gaming",
     "price": 169,
     "category": "Motherboard",
-    "image": "images/b550f.jpg",
+    "image": "image/electronics/asusRogStrixbt550.jpeg",
     "description": "Premium AM4 motherboard for Ryzen CPUs."
   },
   {
@@ -97,7 +97,7 @@
     "name": "MSI Z690 Pro WiFi",
     "price": 210,
     "category": "Motherboard",
-    "image": "images/z690pro.jpg",
+    "image": "image/electronics/Msi Z690ProWifi.jpeg",
     "description": "LGA1700 board with Wi-Fi 6 support."
   },
 
@@ -106,7 +106,7 @@
     "name": "NZXT H510 Mid Tower Case",
     "price": 79,
     "category": "Case",
-    "image": "images/h510.jpg",
+    "image": "image/electronics/NZXT H510 Mid.jpeg",
     "description": "Clean modern mid-tower case."
   },
   {
@@ -114,7 +114,7 @@
     "name": "Corsair 4000D Airflow",
     "price": 94,
     "category": "Case",
-    "image": "images/4000d.jpg",
+    "image": "image/electronics/Corsair4000DAirflow.jpeg",
     "description": "High-airflow case for gaming builds."
   },
 
@@ -123,7 +123,7 @@
     "name": "Corsair RM750 80+ Gold PSU",
     "price": 109,
     "category": "Power Supply",
-    "image": "images/rm750.jpg",
+    "image": "image/electronics/CorsairRM750Gold.jpeg",
     "description": "750W fully modular power supply."
   },
   {
@@ -131,7 +131,7 @@
     "name": "EVGA 600 BR 80+ Bronze",
     "price": 49,
     "category": "Power Supply",
-    "image": "images/evga600.jpg",
+    "image": "image/electronics/Evga600Bronze.jpeg",
     "description": "Budget-friendly 600W power supply."
   },
 
@@ -140,7 +140,7 @@
     "name": "Cooler Master Hyper 212 RGB",
     "price": 39,
     "category": "Cooling",
-    "image": "images/hyper212.jpg",
+    "image": "image/electronics/coolerMasterHyperRgb.jpeg",
     "description": "Popular air cooler for gaming CPUs."
   },
   {
@@ -148,7 +148,7 @@
     "name": "NZXT Kraken X53 240mm AIO",
     "price": 129,
     "category": "Cooling",
-    "image": "images/krakenx53.jpg",
+    "image": "image/electronics/NZXTKraken240mm.jpeg",
     "description": "ARGB liquid cooler for high-end CPUs."
   },
 
@@ -157,7 +157,7 @@
     "name": "Kingston NV2 500GB NVMe",
     "price": 29,
     "category": "Storage",
-    "image": "images/nv2.jpg",
+    "image": "image/electronics/KingstonVnme.jpeg",
     "description": "Budget NVMe SSD for fast boot times."
   },
   {
@@ -165,7 +165,7 @@
     "name": "TeamGroup T-Force Delta RGB 16GB DDR5",
     "price": 119,
     "category": "RAM",
-    "image": "images/tforceddr5.jpg",
+    "image": "image/electronics/temgroupdelta.jpeg",
     "description": "High-speed DDR5 RAM with RGB lighting."
   }
 ]

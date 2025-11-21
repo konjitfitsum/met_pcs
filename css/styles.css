@@ -250,7 +250,10 @@
   margin-bottom: 10px;
   font-size: 16px;
 }
-
+/* .footer-section contact {
+  margin: 10px 0;
+  padding: 10px 0;
+} */
 .footer-section ul {
   list-style: none;
   padding: 0;
@@ -334,4 +337,13 @@
   .payment-icons {
     justify-content: center;
   }
+}
+
+.app-store-img {
+  text-align: center;
+  margin-top: 10px;
+}
+.app-store-img img {
+  width: 40px;
+  margin: 0 10px;
 }
