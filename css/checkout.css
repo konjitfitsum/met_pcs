@@ -73,6 +73,10 @@
   margin-top: 10px;
   cursor: pointer;
 }
+.check {
+  text-align: center;
+  margin: 20px;
+}
 
 /* ----- RESPONSIVE ----- */
 @media (max-width: 768px) {
