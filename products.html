@@ -8,11 +8,169 @@
     <title>MetPc's</title>
   </head>
   <body>
-    <h1>Our :Products</h1>
+    <!-- header -->
+    <div class="order-free">
+      <marquee behavior="scroll" direction="left" class="top-marquee">
+        <img
+          src="image/delivery-car.png"
+          alt="delivery-logo"
+          width="20"
+          height="20"
+        />
+        Order today — Free Delivery!
+      </marquee>
+    </div>
+    <nav class="navbar">
+      <a href="/index.html" class="logo">
+        <img
+          src="/image/Met pc’s.png"
+          width="50"
+          height="50"
+          alt="metpc's logo"
+        />
+      </a>
+
+      <!-- Hamburger Menu -->
+      <div class="hamburger" id="hamburger">☰</div>
+
+      <ul class="nav-links" id="nav-links">
+        <li>
+          <button class="nav-btn">
+            <a href="index.html">Home</a>
+          </button>
+        </li>
+
+        <li>
+          <button class="nav-btn"><a href="products.html">Products</a></button>
+        </li>
+
+        <li>
+          <button class="nav-btn">
+            <a href="pc-build-guides.html">Pc Build Guides</a>
+          </button>
+        </li>
+
+        <li>
+          <button class="nav-btn"><a href="about.html">About</a></button>
+        </li>
+
+        <li>
+          <button class="nav-btn">
+            <a href="testimonials.html">Testimonials</a>
+          </button>
+        </li>
+
+        <li>
+          <button class="nav-btn"><a href="contact.html">Contact</a></button>
+        </li>
+
+        <li>
+          <button class="nav-btn"><a href="cart.html">Cart</a></button>
+        </li>
+        <li>
+          <button class="nav-btn"><a href="login.html">Login</a></button>
+        </li>
+      </ul>
+    </nav>
+    <section>
+      <div class="carousel">
+        <div class="carousel-track">
+          <img src="/image/carouselimage/10242390.jpg" alt="banner 1" />
+          <img
+            src="/image/carouselimage/99cb7731-ed61-434a-9d8a-9fe9d3f384b8.jpg"
+            alt="banner 2"
+          />
+          <img
+            src="/image/carouselimage/cd379788-26fb-45e2-bf62-0b5c01fa3459.jpg"
+            alt="banner 3"
+          />
+        </div>
+
+        <button class="carousel-btn prev">❮</button>
+        <button class="carousel-btn next">❯</button>
+      </div>
+    </section>
     <div id="product-container" class="product-grid">
       <!-- Products will be dynamically inserted here -->
     </div>
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-flex">
+          <!-- Quick Links -->
+          <div class="footer-section links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="pc build.html">PC Build Guides</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
 
+          <!-- Legal -->
+          <div class="footer-section legal">
+            <h3>Legal</h3>
+            <ul>
+              <li><a href="privacy.html">Privacy Policy</a></li>
+              <li><a href="terms.html">Terms of Service</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact -->
+          <div class="footer-section contact">
+            <h3>Contact Us</h3>
+            <p>Email: support@MetPCs.com</p>
+            <p>Phone: +442334567</p>
+            <p>Address: 34 Millfield, Belfast, UK</p>
+          </div>
+
+          <!-- Social Media -->
+          <div class="footer-section social-media">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+              <a href="#"
+                ><img src="image/icons/facebook.png" alt="Facebook"
+              /></a>
+              <a href="#"
+                ><img src="image/icons/twitter.png" alt="Twitter"
+              /></a>
+              <a href="#"
+                ><img src="image/icons/social.png" alt="Instagram"
+              /></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Payments -->
+        <div class="footer-payments">
+          <h3>We Accept:</h3>
+          <div class="payment-icons">
+            <img
+              src="image/icons/american-express.png"
+              alt="American Express"
+            />
+            <img src="image/icons/paypal.png" alt="PayPal" />
+            <img src="image/icons/visa.png" alt="Visa" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer bottom -->
+      <div class="footer-bottom">&copy; 2025 MetPC's. All rights reserved.</div>
+      <hr />
+      <div class="app-store-img">
+        <a href="/appsttore.com">
+          <img src="/image/icons/app-store.png" alt="app store"
+        /></a>
+        <a href="/playstore.com"
+          ><img src="/image/icons/apps.png" alt="google play"
+        /></a>
+      </div>
+    </footer>
+    <script src="js/navbar.js"></script>
+    <script src="js/script.js"></script>
     <script src="js/products.js"></script>
+    <script src="js/product-details.js"></script>
   </body>
 </html>

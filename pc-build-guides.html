@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- css link -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>PC Build Guides — MetPC's</title>
+    <!-- css links  -->
     <link rel="stylesheet" href="css/styles.css" />
-    <title>MetPc's</title>
+    <link rel="stylesheet" href="css/builds.css" />
   </head>
   <body>
     <div class="order-free">
@@ -35,49 +36,39 @@
       <ul class="nav-links" id="nav-links">
         <li>
           <button class="nav-btn">
-            <a href="index.html" class="active">Home</a>
+            <a href="index.html">Home</a>
           </button>
         </li>
 
         <li>
-          <button class="nav-btn">
-            <a href="products.html" class="active">Products</a>
-          </button>
+          <button class="nav-btn"><a href="products.html">Products</a></button>
         </li>
 
         <li>
           <button class="nav-btn">
-            <a href="pc-build-guides.html" class="active">Pc Build Guides</a>
+            <a href="pc-build-guides.html">Pc Build Guides</a>
           </button>
         </li>
 
         <li>
-          <button class="nav-btn">
-            <a href="about.html" class="active">About</a>
-          </button>
+          <button class="nav-btn"><a href="about.html">About</a></button>
         </li>
 
         <li>
           <button class="nav-btn">
-            <a href="testimonials.html" class="active">Testimonials</a>
+            <a href="testimonials.html">Testimonials</a>
           </button>
         </li>
 
         <li>
-          <button class="nav-btn">
-            <a href="contact.html" class="active">Contact</a>
-          </button>
+          <button class="nav-btn"><a href="contact.html">Contact</a></button>
         </li>
 
         <li>
-          <button class="nav-btn">
-            <a href="cart.html" class="active">Cart</a>
-          </button>
+          <button class="nav-btn"><a href="cart.html">Cart</a></button>
         </li>
         <li>
-          <button class="nav-btn">
-            <a href="login.html" class="active">Login</a>
-          </button>
+          <button class="nav-btn"><a href="login.html">Login</a></button>
         </li>
       </ul>
     </nav>
@@ -99,15 +90,43 @@
         <button class="carousel-btn next">❯</button>
       </div>
     </section>
-    <!-- our ;products -->
-    <section>
-      <h3 class="our-products">Our Products</h3>
-      <div id="product-container" class="product-grid"></div>
-    </section>
-    <!-- newsletter section -->
-    <div class="newsletter-marquee">
-      <div class="marquee-content">
-        💌 Subscribe to our Newsletter — Get PC Deals & Exclusive Offers —
+    <header class="page-header">
+      <a class="logo" href="index.html">MetPC's</a>
+      <h1>PC Build Guides</h1>
+      <p class="subtitle">
+        Watch step-by-step guides for building your PC — beginner to advanced.
+      </p>
+
+      <div class="controls">
+        <input
+          id="search"
+          type="search"
+          placeholder="Search guides (e.g. motherboard, cooler)..."
+        />
+        <select id="filter">
+          <option value="all">All difficulty</option>
+          <option value="beginner">Beginner</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="advanced">Advanced</option>
+        </select>
+      </div>
+    </header>
+
+    <main>
+      <section id="guides-grid" class="guides-grid" aria-live="polite">
+        <!-- JS will inject guide cards here -->
+      </section>
+    </main>
+
+    <!-- Modal for playing video -->
+    <div id="video-modal" class="video-modal" aria-hidden="true">
+      <div class="video-modal-inner" role="dialog" aria-modal="true">
+        <button id="modal-close" class="modal-close" aria-label="Close video">
+          ✕
+        </button>
+        <div class="video-wrapper" id="video-wrapper">
+          <!-- iframe inserted by JS -->
+        </div>
       </div>
     </div>
 
@@ -187,9 +206,7 @@
         /></a>
       </div>
     </footer>
-  </body>
 
-  <script src="js/navbar.js"></script>
-  <script src="js/products.js"></script>
-  <script src="js/script.js"></script>
+    <script src="js/builds.js"></script>
+  </body>
 </html>

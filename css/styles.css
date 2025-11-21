@@ -225,6 +225,36 @@
     grid-template-columns: repeat(4, 1fr);
   }
 }
+/* Newsletter Section */
+/* Newsletter Marquee */
+.newsletter-marquee {
+  background: #05a2ba;
+  color: white;
+  padding: 15px 0;
+  overflow: hidden;
+  position: relative;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 40px;
+  width: 100%;
+  margin: auto;
+}
+
+.marquee-content {
+  display: inline-block;
+  white-space: nowrap;
+  animation: marqueeSlide 15s linear infinite;
+  padding-left: 100%;
+}
+
+@keyframes marqueeSlide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
 
 /*footer*/
 /* Footer container */
