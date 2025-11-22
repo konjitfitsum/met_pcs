@@ -1,0 +1,40 @@
+.page-title {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  padding: 40px;
+}
+
+.testimonial-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.testimonial-text {
+  font-size: 15px;
+  margin: 10px 0;
+  opacity: 0.8;
+}
+
+.stars {
+  color: gold;
+  font-size: 20px;
+}
