@@ -27,7 +27,10 @@
   cursor: pointer;
 }
 .nav-btn:hover {
-  background-color: #05a2ba;
+  background-color: #037fae;
+  color: white;
+}
+.nav-btn a:hover {
   color: white;
 }
 

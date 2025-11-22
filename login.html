@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="image/Met pc’s.png" />
+    <link rel="shortcut icon" href="image/Met pc’s.png" type="image/png" />
+    <title>Login • MetPC's</title>
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/login.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR (same as index) -->
+    <nav class="navbar">
+      <a href="index.html" class="logo">
+        <img src="image/Met pc’s.png" width="50" height="50" alt="logo" />
+      </a>
+      <div class="hamburger" id="hamburger">☰</div>
+
+      <ul class="nav-links" id="nav-links">
+        <li>
+          <button class="nav-btn"><a href="index.html">Home</a></button>
+        </li>
+        <li>
+          <button class="nav-btn"><a href="products.html">Products</a></button>
+        </li>
+        <li>
+          <button class="nav-btn">
+            <a href="pc-build-guides.html">PC Build Guides</a>
+          </button>
+        </li>
+        <li>
+          <button class="nav-btn"><a href="aboutus.html">About</a></button>
+        </li>
+        <li>
+          <button class="nav-btn">
+            <a href="testimonials.html">Testimonials</a>
+          </button>
+        </li>
+        <li>
+          <button class="nav-btn"><a href="contact.html">Contact</a></button>
+        </li>
+        <li>
+          <button class="nav-btn"><a href="cart.html">Cart</a></button>
+        </li>
+        <li>
+          <button class="nav-btn">
+            <a href="login.html" class="active">Login</a>
+          </button>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- LOGIN FORM -->
+    <div class="auth-container">
+      <h2>Login to Your Account</h2>
+
+      <form id="loginForm">
+        <div class="input-group">
+          <label>Email</label>
+          <input type="email" id="loginEmail" required />
+        </div>
+
+        <div class="input-group">
+          <label>Password</label>
+          <input type="password" id="loginPassword" required />
+        </div>
+
+        <button type="submit" class="auth-btn">Login</button>
+
+        <p class="switch-text">
+          Don't have an account?
+          <a href="signup.html">Sign Up</a>
+        </p>
+      </form>
+      <p class="auth-switch">
+        <a href="forget-password.html">Forgot Password?</a>
+      </p>
+    </div>
+
+    <!-- FOOTER -->
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-flex">
+          <!-- Quick Links -->
+          <div class="footer-section links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="pc build.html">PC Build Guides</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- Legal -->
+          <div class="footer-section legal">
+            <h3>Legal</h3>
+            <ul>
+              <li><a href="privacy.html">Privacy Policy</a></li>
+              <li><a href="terms.html">Terms of Service</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact -->
+          <div class="footer-section contact">
+            <h3>Contact Us</h3>
+            <p>Email: support@MetPCs.com</p>
+            <p>Phone: +442334567</p>
+            <p>Address: 34 Millfield, Belfast, UK</p>
+          </div>
+
+          <!-- Social Media -->
+          <div class="footer-section social-media">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+              <a href="#"
+                ><img src="image/icons/facebook.png" alt="Facebook"
+              /></a>
+              <a href="#"
+                ><img src="image/icons/twitter.png" alt="Twitter"
+              /></a>
+              <a href="#"
+                ><img src="image/icons/social.png" alt="Instagram"
+              /></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Payments -->
+        <div class="footer-payments">
+          <h3>We Accept:</h3>
+          <div class="payment-icons">
+            <img
+              src="image/icons/american-express.png"
+              alt="American Express"
+            />
+            <img src="image/icons/paypal.png" alt="PayPal" />
+            <img src="image/icons/visa.png" alt="Visa" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer bottom -->
+      <div class="footer-bottom">&copy; 2025 MetPC's. All rights reserved.</div>
+      <hr />
+      <div class="app-store-img">
+        <a href="/appsttore.com">
+          <img src="/image/icons/app-store.png" alt="app store"
+        /></a>
+        <a href="/playstore.com"
+          ><img src="/image/icons/apps.png" alt="google play"
+        /></a>
+      </div>
+    </footer>
+
+    <script src="js/navbar.js"></script>
+    <script src="js/login.js"></script>
+  </body>
+</html>

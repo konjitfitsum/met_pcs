@@ -3,9 +3,215 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="icon" type="image/png" href="image/Met pc’s.png" />
+    <link rel="shortcut icon" href="image/Met pc’s.png" type="image/png" />
+    <title>MetPc's</title>
+
+    <title>Contact — MetPC's</title>
   </head>
+
   <body>
-    sfds
+    <!-- TOP MARQUEE -->
+    <div class="order-free">
+      <marquee behavior="scroll" direction="left" class="top-marquee">
+        <img src="image/delivery-car.png" width="20" height="20" />
+        Order today — Free Delivery!
+      </marquee>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <a href="/index.html" class="logo">
+        <img src="/image/Met pc’s.png" width="50" height="50" alt="Logo" />
+      </a>
+
+      <div class="hamburger" id="hamburger">☰</div>
+
+      <ul class="nav-links" id="nav-links">
+        <li>
+          <button class="nav-btn"><a href="index.html">Home</a></button>
+        </li>
+        <li>
+          <button class="nav-btn"><a href="products.html">Products</a></button>
+        </li>
+        <li>
+          <button class="nav-btn">
+            <a href="pc-build-guides.html">Pc Build Guides</a>
+          </button>
+        </li>
+        <li>
+          <button class="nav-btn"><a href="aboutus.html">About</a></button>
+        </li>
+        <li>
+          <button class="nav-btn">
+            <a href="testimonials.html">Testimonials</a>
+          </button>
+        </li>
+        <li>
+          <button class="nav-btn">
+            <a href="contact.html" class="active">Contact</a>
+          </button>
+        </li>
+        <li>
+          <button class="nav-btn"><a href="cart.html">Cart</a></button>
+        </li>
+        <li>
+          <button class="nav-btn"><a href="login.html">Login</a></button>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- CONTACT HEADER -->
+    <section class="contact-header">
+      <h1>Contact Us</h1>
+      <p>We’d love to hear from you — send us a message anytime.</p>
+    </section>
+
+    <!-- CONTACT FORM + DETAILS -->
+    <section class="contact-container">
+      <div class="contact-form">
+        <h2>Send us a message</h2>
+
+        <form>
+          <label>Your Name</label>
+          <input type="text" placeholder="Fitsum abre" required />
+
+          <label>Email Address</label>
+          <input
+            type="email"
+            placeholder="metpc'ssupport@example.com"
+            required
+          />
+
+          <label>Your Message</label>
+          <textarea placeholder="How can we help you?" required></textarea>
+
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+      </div>
+
+      <div class="contact-info">
+        <h2>Our Contact Info</h2>
+
+        <p><strong>Email:</strong> support@MetPCs.com</p>
+        <p><strong>Phone:</strong> +442334567</p>
+        <p><strong>Address:</strong> 34 Millfield, Belfast, UK</p>
+
+        <h3>Follow Us</h3>
+        <div class="contact-social-icons">
+          <img src="image/icons/facebook.png" alt="Facebook" />
+          <img src="image/icons/twitter.png" alt="Twitter" />
+          <img src="image/icons/social.png" alt="Instagram" />
+        </div>
+      </div>
+    </section>
+
+    <section class="faq-section">
+      <h2>Frequently Asked Questions</h2>
+
+      <div class="accordion">
+        <div class="accordion-item">
+          <button class="accordion-header">What is your response time?</button>
+          <div class="accordion-content">
+            <p>We usually reply within 24 hours during business days.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-header">Where are you located?</button>
+          <div class="accordion-content">
+            <p>We are based in Belfast, UK — but we ship all across the UK.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-header">
+            Do you offer custom PC builds?
+          </button>
+          <div class="accordion-content">
+            <p>Yes! Visit our PC Build Guides page for full details.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- embedded map showing location -->
+    -->
+    <section class="map-section">
+      <h2>Find Us</h2>
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2361.458714130226!2d-5.940196684135968!3d54.60009228020545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48572b36ecf5f3bd%3A0x1cebc7275adf645b!2sBelfast%20Metropolitan%20College%20Millfield%20Campus!5e0!3m2!1sen!2suk!4v1713721228989!5m2!1sen!2suk"
+          width="100%"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+
+    <!-- FOOTER (same as index) -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-flex">
+          <div class="footer-section links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="pc build.html">PC Build Guides</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section legal">
+            <h3>Legal</h3>
+            <ul>
+              <li><a href="privacy.html">Privacy Policy</a></li>
+              <li><a href="terms.html">Terms of Service</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section contact">
+            <h3>Contact Us</h3>
+            <p>Email: support@MetPCs.com</p>
+            <p>Phone: +442334567</p>
+            <p>Address: 34 Millfield, Belfast, UK</p>
+          </div>
+
+          <div class="footer-section social-media">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+              <a href="#"><img src="image/icons/facebook.png" /></a>
+              <a href="#"><img src="image/icons/twitter.png" /></a>
+              <a href="#"><img src="image/icons/social.png" /></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-payments">
+          <h3>We Accept:</h3>
+          <div class="payment-icons">
+            <img src="image/icons/american-express.png" />
+            <img src="image/icons/paypal.png" />
+            <img src="image/icons/visa.png" />
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">&copy; 2025 MetPC's. All rights reserved.</div>
+      <hr />
+      <div class="app-store-img">
+        <a href="#"><img src="/image/icons/app-store.png" /></a>
+        <a href="#"><img src="/image/icons/apps.png" /></a>
+      </div>
+    </footer>
+
+    <script src="js/navbar.js"></script>
+    <script src="js/contact.js"></script>
   </body>
 </html>
