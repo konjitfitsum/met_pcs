@@ -29,22 +29,22 @@ fetch("data/products.json")
     `;
   });
 
-document.querySelector(".add-to-cart-btn").addEventListener("click", () => {
-  let cart = JSON.parse(localStorage.getItem("cart")) || [];
-  let existing = cart.find((item) => item.id == product.id);
+// document.querySelector(".add-to-cart-btn").addEventListener("click", () => {
+//   let cart = JSON.parse(localStorage.getItem("cart")) || [];
+//   let existing = cart.find((item) => item.id == product.id);
 
-  if (existing) {
-    existing.quantity++;
-  } else {
-    cart.push({
-      id: product.id,
-      name: product.name,
-      price: product.price,
-      image: product.image,
-      quantity: 1,
-    });
-  }
+//   if (existing) {
+//     existing.quantity++;
+//   } else {
+//     cart.push({
+//       id: product.id,
+//       name: product.name,
+//       price: product.price,
+//       image: product.image,
+//       quantity: 1,
+//     });
+//   }
 
-  localStorage.setItem("cart", JSON.stringify(cart));
-  alert("Added to cart!");
-});
+//   localStorage.setItem("cart", JSON.stringify(cart));
+//   alert("Added to cart!");
+// });

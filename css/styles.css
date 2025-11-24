@@ -4,9 +4,14 @@
   box-sizing: border-box;
   font-family: Arial, sans-serif;
 }
+.top-marquee{
+  position: sticky;
+  z-index: 10px;
+}
 .top-marquee img {
   vertical-align: middle;
   margin-right: 8px;
+  position:sticky;
 }
 
 /* Navbar container */
@@ -18,6 +23,9 @@
   padding: 15px 20px;
   background: #05a2ba;
   border-bottom: 1px solid #ddd; /* Light divider for clean look */
+  position: sticky;
+  top:0;
+
 }
 .nav-btn {
   color: black;
@@ -37,6 +45,17 @@
 /* Logo */
 .logo img {
   border-radius: 5px;
+}
+.delivery-icon{
+  flex-direction: column;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+.delivery-icon span{
+  align-items: start;
+  justify-content: start;
+  
 }
 
 /* Hamburger menu (mobile only) */
@@ -75,7 +94,7 @@
   font-weight: bold;
 }
 .navbar {
-  position: relative;
+  position: sticky;
   z-index: 10; /* puts navbar on top */
 }
 
@@ -175,6 +194,39 @@
     text-decoration: underline;
   }
 }
+
+/* pagination here */
+.pagination{
+  display:flex;
+  justify-content: center;
+  gap:10px;
+  list-style:none;
+  margin: 20px;
+ 
+}
+.pagination ul li{
+  list-style: none;
+ 
+
+}
+.pagination li a{
+  display: block; /* let links fill the list item */
+  padding: 8px 12px;
+  text-decoration: none;
+  border: 1px solid gray;
+  color: black;
+  margin: 0 4px;
+  border-radius: 5px; /* add rounded borders */
+
+
+}
+
+.pagination li a:hover:not(.active) {
+  background-color:#037fae;
+  color:white;
+}
+
+
 /* ;productlist */
 /* Product grid container */
 .product-grid {
