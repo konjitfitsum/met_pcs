@@ -157,6 +157,30 @@
 .carousel-btn:hover {
   background: white;
 }
+.details{
+    text-align: center;
+  padding: 15PX;
+ 
+}
+.details button{
+    border-radius: 8px;
+margin: 15px;
+padding: 7px 16px;
+border: none;
+}
+.details button:hover {
+    background-color:#037fae;
+    color: white;
+}
+.details button a {
+    gap: 20px;
+    text-decoration: none;
+    color: black;
+    
+}
+.details button a:hover{
+  color: white;
+}
 @media (max-width: 600px) {
   .carousel-btn {
     padding: 5px 10px;
