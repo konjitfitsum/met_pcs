@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: Arial, sans-serif;
 }
+
 .top-marquee{
   position: sticky;
   z-index: 10px;
@@ -160,17 +161,24 @@
 .details{
     text-align: center;
   padding: 15PX;
+
+
  
 }
+
 .details button{
     border-radius: 8px;
 margin: 15px;
 padding: 7px 16px;
 border: none;
+ box-shadow: 1px 2px 4px 4px #05a2ba;
+
 }
-.details button:hover {
+.details button:hover  {
     background-color:#037fae;
     color: white;
+     
+    
 }
 .details button a {
     gap: 20px;
@@ -181,6 +189,10 @@ border: none;
 .details button a:hover{
   color: white;
 }
+/* The element to apply the animation to */
+
+/* The animation code */
+
 @media (max-width: 600px) {
   .carousel-btn {
     padding: 5px 10px;

@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/products.css" />
+
+    <!-- buildes css -->
+     <link rel="stylesheet" href="css/builds.css">
     <link rel="icon" type="image/png" href="image/Met pc’s.png" />
     <link rel="shortcut icon" href="image/Met pc’s.png" type="image/png" />
     <title>MetPc's</title>
@@ -101,6 +104,19 @@
                <button><a href="#">Storage</a></button>
                  <button><a href="#">Power supply</a></button>
      </div>
+     <div class="controls">
+        <input
+          id="search"
+          type="search"
+          placeholder="Search guides (e.g. motherboard, cooler, GPU, CPU)..."
+        />
+        <select id="filter">
+          <option value="all">Latest</option>
+          <option value="beginner">Hot sale</option>
+          <option value="intermediate">Black Friday</option>
+          <option value="advanced">Lexury</option>
+        </select>
+      </div>
     </section>
     <div id="product-container" class="product-grid">
       <!-- Products will be dynamically inserted here -->
