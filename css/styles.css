@@ -4,6 +4,14 @@
   box-sizing: border-box;
   font-family: Arial, sans-serif;
 }
+body {
+
+  background-color: white;
+  color: black;
+  transition: filter 0.3s erase;
+
+}
+
 
 .top-marquee{
   position: sticky;
@@ -58,6 +66,57 @@
   justify-content: start;
   
 }
+
+  /* Black & white mode */
+  .bw-mode {
+   filter:grayscale(60%)
+  }
+
+  /* Switch container */
+  .switch {
+    position: relative;
+    width: 60px;
+    height: 32px;
+    display: inline-block;
+  }
+
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  /* Slider design */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    background-color: #ccc;
+    border-radius: 34px;
+    top: 0; left: 0; right: 0; bottom: 0;
+    transition: 0.3s;
+  }
+
+  .slider:before {
+    content: "";
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    border-radius: 50%;
+    transition: 0.3s;
+  }
+
+  input:checked + .slider {
+    background-color: black;
+  }
+
+  input:checked + .slider:before {
+    transform: translateX(28px);
+  }
+
+
 
 /* Hamburger menu (mobile only) */
 .hamburger {
