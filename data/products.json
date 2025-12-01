@@ -167,5 +167,15 @@
     "category": "RAM",
     "image": "image/electronics/temgroupdelta.jpeg",
     "description": "High-speed DDR5 RAM with RGB lighting."
+  },
+  {
+    "id":21,
+    "name": "iMac 18,2",
+    "price": 210,
+     "category": "Desktop",
+     "image" :"image/electronics/images_1.jpg",
+     "description":"Intel Core i5-7400 processor 3.0GHz Quad-Core 6 MB Cache, 64-bit Technology"
+     
+
   }
 ]

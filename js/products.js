@@ -9,7 +9,7 @@ fetch("data/products.json")
         <div class="product-card">
           <img src="${p.image}" alt="${p.name}">
           <h3>${p.name}</h3>
-          <p class="price">$${p.price}</p>
+          <p class="price">£ ${p.price}</p>
           <p class="category">${p.category}</p>
           <p class="description">${p.description}</p>
           <div>
