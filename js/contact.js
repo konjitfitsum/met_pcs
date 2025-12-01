@@ -20,7 +20,18 @@ accordions.forEach((btn) => {
   });
 });
 
-// document.getElementById("messageBtn").addEventListener("click", () => {
-// alert("Message sent Succesefully 💙");
+document.getElementById("messageBtn").addEventListener("click", (e) => {
+  e.preventDefault();
+  
+  // Get the name input value
+  const nameInput = document.querySelector('input[placeholder="Fitsum abre"]');
+  const userName = nameInput.value.trim();
+  
+  if (userName) {
+    alert(`Thank you ${userName}! Message sent Succesefully 💙`);
+  } else {
+    alert("Please enter your name first!");
+  }
+});
 
  
