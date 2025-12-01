@@ -12,7 +12,10 @@
 }
 
 .product-card:hover {
-  transform: translateY(-5px);
+transform: scale(105%);
+background-color: #74bdc9;
+color: white;
+
 }
 
 .product-card img {
