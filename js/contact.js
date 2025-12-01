@@ -19,3 +19,8 @@ accordions.forEach((btn) => {
     }
   });
 });
+
+// document.getElementById("messageBtn").addEventListener("click", () => {
+// alert("Message sent Succesefully 💙");
+
+ 
