@@ -16,6 +16,9 @@ body {
   color: black;
   transition: filter 0.3s erase;
   zoom: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  width: 100%;
 
 }
 
@@ -23,6 +26,9 @@ body {
 .top-marquee{
   position: sticky;
   z-index: 10px;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
 }
 .top-marquee img {
   vertical-align: middle;
@@ -41,6 +47,9 @@ body {
   border-bottom: 1px solid #ddd; /* Light divider for clean look */
   position: sticky;
   top:0;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
 
 }
 .nav-btn {
@@ -131,6 +140,7 @@ body {
   cursor: pointer;
   color: black; /* Black icon */
   display: block;
+  flex-shrink: 0;
 }
 
 /* Nav links (hidden on mobile) */
@@ -239,6 +249,8 @@ body {
 .details{
     text-align: center;
   padding: 10px;
+  max-width: 100%;
+  overflow-x: hidden;
 
 
  
@@ -328,12 +340,22 @@ border: none;
 }
 
 /* pagination here */
+.pagi {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .pagination{
   display:flex;
   justify-content: center;
   gap:10px;
   list-style:none;
   margin: 20px;
+  flex-wrap: wrap;
+  max-width: 100%;
+  overflow-x: hidden;
+  width: 100%;
  
 }
 .pagination ul li{
@@ -353,6 +375,19 @@ border: none;
 
 }
 
+@media (max-width: 480px) {
+  .pagination li a {
+    padding: 6px 8px;
+    margin: 0 2px;
+    font-size: 12px;
+  }
+  
+  .pagination li a img {
+    width: 8px !important;
+    height: 12px !important;
+  }
+}
+
 .pagination li a:hover:not(.active) {
   background-color:#037fae;
   color:white;
@@ -366,6 +401,8 @@ border: none;
   grid-template-columns: 1fr;
   gap: 20px;
   padding: 20px;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .product-card {
